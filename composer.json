@@ -1,0 +1,15 @@
+{
+    "name": "Mailing List Organizer",
+    "description": "Allow users to (un-) subscribe from topics that they would like to receive emails for",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "wtimme"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>mailinglistorganizer</id>
+    <name>Mailing List Organizer</name>
+    <summary>Allow users to (un-) subscribe from topics that they would like to receive emails for</summary>
+    <description><![CDATA[A Nextcloud app that allows users to subscribe to topics that they are interested in.
+Admins can select one or more topics, and then copy the email addresses of all users
+that are interested in these topics, in order to use those when sending e-mails.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="wtimme@users.noreply.github.com" >wtimme</author>
+    <namespace>MailingListOrganizer</namespace>
+    <category>social</category>
+    <bugs>https://github.com/wtimme/Nextcloud-MailingListOrganizer/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Mailing List Organizer</name>
+            <route>mailinglistorganizer.page.index</route>
+        </navigation>
+    </navigations>
+</info>
