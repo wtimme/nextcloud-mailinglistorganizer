@@ -1,5 +1,5 @@
 {
-    "name": "Mailing List Organizer",
+    "name": "wtimme/nextcloud-mailinglistorganizer",
     "description": "Allow users to (un-) subscribe from topics that they would like to receive emails for",
     "type": "project",
     "license": "AGPL",
